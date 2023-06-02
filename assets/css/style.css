@@ -1,0 +1,163 @@
+    @font-face {
+        font-family: Roboto;
+        src: url(../font/Roboto-Regular.ttf);
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: #F5F5F5;
+    }
+
+    hr {
+        margin-top: 120px;
+    } 
+
+    .text--shadow:hover {
+    text-shadow: 0px 0px 1px black;
+    }
+
+    .box--shadow:hover {
+        box-shadow: 0px 0px 10px black;
+    }
+
+    .block {
+        /* border-bottom: 1px solid gray;         */
+        font-family: Roboto;
+        /* height: 697.5px; */
+    }
+
+    /* .block--medium {
+        height: 750px;
+    } */
+
+    /* .block--long {
+        border-bottom: 1px solid gray;        
+        height: 2700px;
+    } */
+
+    .block__header__nav__ul {
+        font-size: 14px;
+        padding: 20px 0 0 100px;
+    }
+
+    .block__header__nav__ul__li {
+        display: inline;
+        padding-right: 22px;
+    }
+
+    .block__header__nav__ul__li__a {
+        color: #659D89;
+        text-decoration: none;
+    }
+
+    .block__article {
+        font-size: 50px;
+    }
+
+    .block__article__h1 {
+        color: #659D89;
+        padding: 103px 0 0 100px;
+    }
+
+    .block__article__h2 {
+        font-size: 20px;
+        padding: 50px 0 0 100px;
+    }
+
+    .block__article__p {
+        margin-left: 100px;
+        width: 603px;
+    }
+
+    .block__article__p--small {
+        font-size: 16px;
+        margin: 15px 0 80px 100px;
+    }
+    
+
+    .block__aside {
+        display: block;
+        height: 204px;
+    }
+    
+    .block__aside__ul {
+        list-style: none;
+        padding-top: 50px;
+        padding-left: 1320px;
+
+    }
+
+    .block__a {
+        color: #666666;
+        font-size: 16px;
+        margin-left: 100px;    
+        text-decoration: none;
+    }
+
+    .block__divgallery__row {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1020px;
+    }
+
+    /* #Das padding muss weg */
+    .block__divgallery__img {
+        object-fit: cover;
+        padding: 25px;     
+        width: 320px;
+    }
+
+    .block__divcontainer {
+        text-align: center;
+        margin-top: 95px;
+        width: 756px;
+    }
+
+    /* #Hier fehlt etwas unten am Rand */
+    .block__divcontainer__image {
+        object-fit: cover;
+    }
+
+    .block__divcontainer__source {
+        color: #666666;
+        font: 12px Roboto;
+        margin-top: 17.5px;
+    }
+
+    .block__divcontainer__discription {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    
+    .block__divcontainer--left {
+        margin-left: 180px;
+    }
+    .block__divcontainer--right {
+        margin-left: 504px;
+    }
+
+    .block__footer {
+        font-family: Roboto;
+        height: 239.6px;
+        text-align: center;
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    /* #Dieser Link braucht noch eine ID und eine Action */
+    .block__footer__a {
+        font-size: 20px;
+        color: #666666;
+        text-decoration: none;
+    }
+
+    .block__footer__p {
+        font: 10px;
+        color: #666666;
+        padding-top: 61px;
+    }
