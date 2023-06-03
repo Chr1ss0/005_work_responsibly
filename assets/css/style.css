@@ -105,7 +105,7 @@
         width: 1020px;
     }
 
-    /* #Das padding muss weg */
+    /* #Das padding muss weg // Oder auch nicht -> drop-shadow */
     .block__divgallery__img {
         object-fit: cover;
         padding: 25px;     
@@ -118,7 +118,7 @@
         width: 756px;
     }
 
-    /* #Hier fehlt etwas unten am Rand */
+    /* #Hier fehlt etwas unten am Rand  // Korrigiert dich drop-shadow Filter*/
     .block__divcontainer__image {
         object-fit: cover;
     }
@@ -149,7 +149,7 @@
         padding-top: 100px;
     }
 
-    /* #Dieser Link braucht noch eine ID und eine Action */
+    /* #Dieser Link braucht noch eine ID und eine Action // Korrigiert durch Internen Link */
     .block__footer__a {
         font-size: 20px;
         color: #666666;
